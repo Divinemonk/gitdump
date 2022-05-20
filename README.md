@@ -1,10 +1,10 @@
 # Gitdump [gd]
-Dump (clone) all repos for certain username, can be used for backup all git repo of your profile!
 
 ```
 █▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
 █▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  1.0.2  
 ```
+Dump (clone) all repos of certain username, good solution to **backup all repos** of your or someones profile!
 
 
 # Usage
