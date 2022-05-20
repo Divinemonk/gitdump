@@ -7,7 +7,7 @@
 Dump (clone) all repos of certain username, good solution to **backup all repos** of your or someones profile!
 
 
-# Usage
+## Usage
 
 ```
 usage: gd [-h] [-u USERNAME] [-l LOCATION]
@@ -20,4 +20,11 @@ optional arguments:
                         username of the github account
   -l LOCATION, --location LOCATION
                         location to save dumped repos
+```
+
+
+## Installation
+
+```
+pip install gitdump
 ```
