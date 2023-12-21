@@ -1,16 +1,16 @@
-# Gitdump [gd]
+# Gitdump
 
 ```
 █▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
 █▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  1.0.2  
 ```
-Dump (clone) all repos of certain username, good solution to **backup all repos** of your or someones profile!
+> Dump all repositories of a github account (__backup solution__)
 
 
 ## Usage
 
 ```
-usage: gd [-h] [-u USERNAME] [-l LOCATION]
+usage: python3 gitdump.py [-h] [-u USERNAME] [-l LOCATION]
 
 Dump all repos of a github account at once.
 
@@ -20,11 +20,4 @@ optional arguments:
                         username of the github account
   -l LOCATION, --location LOCATION
                         location to save dumped repos
-```
-
-
-## Installation
-
-```
-pip install gitdump
 ```
