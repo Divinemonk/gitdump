@@ -11,6 +11,7 @@ def logo():
   logo = '''
 █▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
 █▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  2.0.0
+A Divinemonk creation!
   '''
   return logo
 
