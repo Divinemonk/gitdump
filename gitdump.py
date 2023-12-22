@@ -10,7 +10,7 @@ from rich.progress import Progress
 def logo():
   logo = '''
 █▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
-█▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  1.0.2  
+█▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  2.0.0
   '''
   return logo
 
