@@ -21,7 +21,8 @@ def datetime_init():
   return datetime_str
 
 def github_data(username):
-  repo_list = requests.get(f"https://api.github.com/users/{username}/repos")
+  # https://stackoverflow.com/questions/27331849/github-api-v3-doesnt-show-all-user-repositories
+  repo_list = requests.get(f"https://api.github.com/users/{username}/repos?per_page=100") # &page=2
   rl = list(repo_list.json())
   
   if len(rl)<3 and rl[0] == 'message':
