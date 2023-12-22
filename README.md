@@ -4,8 +4,6 @@
 █▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
 █▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  1.0.2  
 ```
-> Dump all repositories of a github account (__backup solution__)
-
 
 ## Usage
 
@@ -21,3 +19,8 @@ optional arguments:
   -l LOCATION, --location LOCATION
                         location to save dumped repos
 ```
+
+## Notes
+- Dump all repositories of a github account (__backup solution__)
+- Requires [git](https://git-scm.com/downloads) & [python3](https://www.python.org/downloads/) preinstalled
+- Install __rich__ python library `pip install rich`  ([pypi](https://pypi.org/project/rich/))
